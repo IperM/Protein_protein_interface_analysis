@@ -31,7 +31,7 @@ resListA = structure[0]['A'].get_list()
 resListE = structure[0]['E'].get_list()
 
 if dis == None:
-    dis = 7
+    dis = 8
 
 print("The interface is made upon the pairs of residues distint 6 Ångströms:\n")
 for i in resListA:
