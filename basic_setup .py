@@ -229,5 +229,4 @@ print('Total Electric Energy of the interface: ',Total_Eelec)
 print('Total Van der Waals Energy of the interface: ',Total_Vdw)
 print('Total Solvation Energy of the interface: ',Total_Solvation)
 print('Total Solvation of Monomer A: ',Total_SolvationA)
-
- 
+print("Total ΔG of the complex' interface: ",Total_Eelec + Total_Vdw + Total_Solvation - Total_SolvationA -Total_SolvationE)
