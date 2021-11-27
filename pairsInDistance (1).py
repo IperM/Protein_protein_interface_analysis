@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(
         description = "Returns pair residues witht the CA closer than the given distance"
         )
 parser.add_argument("file_name", help="PDB file to work with")
-parser.add_argument("--distance", help="Max distance",type= int, dest="distance")
+parser.add_argument("--distance", help="Max distance",type= int, dest="distance", default= 8)
 
 args = parser.parse_args()
 
@@ -30,9 +30,6 @@ structure = PDBparser.get_structure(PDBid, PDBfile)
 resListA = structure[0]['A'].get_list()
 resListE = structure[0]['E'].get_list()
 
-if dis == None:
-    dis = 8
-
 print("The interface is made upon the pairs of residues distint 6 Ångströms:\n")
 for i in resListA:
     for j in resListE:
@@ -46,5 +43,4 @@ for i in resListA:
         if distance <= dis:
             print(i.get_resname(), i.id[1]," in chain A and ", j.get_resname(), j.id[1]," in chain E\n")
                    
-
 
