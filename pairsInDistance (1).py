@@ -30,6 +30,9 @@ structure = PDBparser.get_structure(PDBid, PDBfile)
 resListA = structure[0]['A'].get_list()
 resListE = structure[0]['E'].get_list()
 
+resAnum = []
+resEnum =[]
+
 print("The interface is made upon the pairs of residues distint 6 Ångströms:\n")
 for i in resListA:
     for j in resListE:
@@ -41,6 +44,14 @@ for i in resListA:
             continue
         
         if distance <= dis:
+
+            if not i.id[1] in resAnum:
+                resAnum.append(i.id[1])
+
+            if not j.id[1] in resEnum:
+                resEnum.append(j.id[1]) 
+
             print(i.get_resname(), i.id[1]," in chain A and ", j.get_resname(), j.id[1]," in chain E\n")
-                   
+
+
 
