@@ -11,7 +11,7 @@
     - The code it's saved inside : Experimental_codepymol.py
 - BasicSet_+_Energy_Calculation.py it's a python code which will do teh basic setup code, where it becomes  analysed for the enegry for each atom of the interfase, and gets the value of the total interface
 - pairsInDistance: python script which gives a different set of different chains and decide the  ones which participate in the interficie.
-- The Alpha Variant has the files for the Alpha variant of the covid which contains, the proper test of basic setp, the ala scanning and also  the performed proper repairing. Also the same for teh Beta variant folder.
+- The Alpha Variant has the files for the Alpha variant of the covid which contains, the proper test of basic setp, the ala scanning and also  the performed proper repairing. Also the same for teh Beta variant and Original variant folder.
 - Try_for_alascanning: it's a python code which tries to do the alascanning in the proper way you asked, but it cannot be performed becouse we dont know how to put inside the cange into ala.
 - The . cif are documents which contains inside the structure in the proper way to put inside the 6m0j_check.py or ipynb
 - Then it contains the rest of your files from your github https://github.com/IperM/BioPhysics which it's inside in order to work properly.
