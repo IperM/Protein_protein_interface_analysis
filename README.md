@@ -8,5 +8,5 @@
 - Structure_interface   are  pymol sesions saved which will show you the interface graphically (avaluated for strictly 6 Armstrongs.)
     - Which Wcode corresponds to one which contains directly a script nin order to detect it fully correct
     - The code it's saved inside : Experimental_codepymol.py
-- Basic_setup it's a python code which will do teh basic setup code, where it becomes  analysed for the enegry for each atom of the interfase, and gets the value of the total interface
+- BasicSet_+_Energy_Calculation.py it's a python code which will do teh basic setup code, where it becomes  analysed for the enegry for each atom of the interfase, and gets the value of the total interface
 - pairsInDistance(1): python script which gives a different set of different chains and decide the  ones which participate in the interficie.
