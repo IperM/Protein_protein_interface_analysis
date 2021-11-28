@@ -1,0 +1,62 @@
+ ACCALL - Accessibility calculations
+ MAX RESIDUES     5000
+ MAX ATOMS/RES     100
+ PDB FILE INPUT TEST/o704_1.pdb
+ PROBE SIZE       1.40
+ Z-SLICE WIDTH   0.050
+ VDW RADII FILE vdw.radii
+ EXCL HETATOMS
+ EXCL HYDROGENS
+ EXCL WATERS
+ READVDW  32 residues input
+ UNKNOWN residue type.............> PAQ   164 
+ NON-STANDARD atom.| N  | in residue> PAQ   164 
+ ASSUMED vdw of  N   in PAQ   164  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> PAQ   164 
+ ASSUMED vdw of  CA  in PAQ   164  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> PAQ   164 
+ ASSUMED vdw of  C   in PAQ   164  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> PAQ   164 
+ ASSUMED vdw of  O   in PAQ   164  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> PAQ   164 
+ ASSUMED vdw of  CB  in PAQ   164  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> PAQ   164 
+ ASSUMED vdw of  CG  in PAQ   164  =  1.87 (same as ARG)
+ NON-STANDARD atom.| CD1| in residue> PAQ   164 
+ ASSUMED vdw of  CD1 in PAQ   164  =  1.87 (same as ILE)
+ NON-STANDARD atom.| O2 | in residue> PAQ   164 
+ ASSUMED vdw of  O2  in PAQ   164  =  1.40 (same as   C)
+ NON-STANDARD atom.| CD2| in residue> PAQ   164 
+ ASSUMED vdw of  CD2 in PAQ   164  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> PAQ   164 
+ ASSUMED vdw of  CE1 in PAQ   164  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE2| in residue> PAQ   164 
+ ASSUMED vdw of  CE2 in PAQ   164  =  1.76 (same as PHE)
+ NON-STANDARD atom.| CZ | in residue> PAQ   164 
+ ASSUMED vdw of  CZ  in PAQ   164  =  1.76 (same as ARG)
+ NON-STANDARD atom.| OH | in residue> PAQ   164 
+ ASSUMED vdw of  OH  in PAQ   164  =  1.40 (same as TYR)
+ NON-STANDARD atom.| OX | in residue> PAQ   164 
+ GUESSED vdw of  OX  in PAQ   164  =  1.40
+ NON-STANDARD atom.| N2 | in residue> PAQ   164 
+ ASSUMED vdw of  N2  in PAQ   164  =  1.60 (same as   G)
+ NON-STANDARD atom.| C1 | in residue> PAQ   164 
+ GUESSED vdw of  C1  in PAQ   164  =  1.80
+ NON-STANDARD atom.| C2 | in residue> PAQ   164 
+ ASSUMED vdw of  C2  in PAQ   164  =  1.80 (same as   A)
+ NON-STANDARD atom.| C3 | in residue> PAQ   164 
+ GUESSED vdw of  C3  in PAQ   164  =  1.80
+ NON-STANDARD atom.| C4 | in residue> PAQ   164 
+ ASSUMED vdw of  C4  in PAQ   164  =  1.80 (same as   A)
+ NON-STANDARD atom.| C5 | in residue> PAQ   164 
+ ASSUMED vdw of  C5  in PAQ   164  =  1.80 (same as   A)
+ NON-STANDARD atom.| N3 | in residue> PAQ   164 
+ ASSUMED vdw of  N3  in PAQ   164  =  1.60 (same as   A)
+ ADDED VDW RADII
+ CHAINS       1
+ RESIDUES   411
+ ATOMS     3280
+ SOLVA: PROGRAM ENDS CORRECTLY
+ CALCULATED ATOMIC ACCESSIBILITES
+ RELATIVE (STANDARD) ACCESSIBILITIES READFOR  20 AMINO ACIDS
+ SUMMED ACCESSIBILITIES OVER RESIDUES
