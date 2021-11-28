@@ -16,3 +16,5 @@
 - The **.cif** are documents which contains inside the structure in the proper way to put inside the 6m0j_check.py or ipynb
 - Then it contains the rest of your files from your github ***https://github.com/IperM/BioPhysics*** which it's inside in order to work properly.
 - Lastly if you want to perform all the different cehcks you must put all outside foiles inside the one called Biophysics and perform the analysis.
+
+![ESCI](https://user-images.githubusercontent.com/75013976/143790373-4dcf15c5-074e-43d5-8d52-1f3e745374f6.png)
