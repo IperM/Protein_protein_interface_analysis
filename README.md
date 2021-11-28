@@ -1,6 +1,7 @@
 # Protein_protein_interface_analysis
 ## This is a repository where we will import all the different important documents for our exercice, the group will be formed by:  Iris Mestres, Pablo Pérez, Ian Perez.
 
+###### ALL THE PATHS ARE DESIGNED FOR OUR COMPUTERS, YOU MUST CHANGE IT BEFORE RUNING ANY SCRIPT
 
 ### There are different codes within those there are the following and contains:(The rest of the documents are basically the same as your repository just in order that it works correctly)
 - Energyevaluation: has a py code with formulas of Vdw, electrostatics and solvation also for the constants.
